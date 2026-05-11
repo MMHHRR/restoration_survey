@@ -1,0 +1,2397 @@
+{
+  "project": {
+    "id": "proj_1778489865573_k9084r1z9",
+    "name": "ART – Restorative Streetscape Perception - New",
+    "description": "Based on ART – Restorative Streetscape Perception",
+    "createdAt": "2026-05-11T08:57:45.573Z",
+    "lastModified": "2026-05-11T08:57:45.573Z",
+    "templateId": "1995-art-restoration",
+    "supabaseConfig": null,
+    "imageDatasetConfig": {
+      "huggingFaceToken": "",
+      "datasetName": "sijiey/Thermal-Affordance-Dataset",
+      "enabled": true,
+      "supabaseProjectId": "whyvwubdhixyjylapxqx",
+      "supabaseUrl": "https://whyvwubdhixyjylapxqx.supabase.co",
+      "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODQ4MzMzMSwiZXhwIjoyMDk0MDU5MzMxfQ.9yAtO69v51WsJcapEPYL45UqDGv_J1VPo9GK5Bt-CP8",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0ODMzMzEsImV4cCI6MjA5NDA1OTMzMX0.ReXVNS6FXo_xy7ZhPKUrSyqw5OLOe8jQaCpsUAVGBSc",
+      "datasetInfo": {
+        "id": "sijiey/Thermal-Affordance-Dataset",
+        "description": "Dataset accessed via datasets-server API",
+        "author": "sijiey",
+        "lastModified": "2026-05-11T09:00:03.161Z",
+        "private": false,
+        "imageCount": 500,
+        "dataset_info": {
+          "default": {
+            "description": "",
+            "citation": "",
+            "homepage": "",
+            "license": "",
+            "features": {
+              "image": {
+                "_type": "Image"
+              }
+            },
+            "builder_name": "imagefolder",
+            "dataset_name": "thermal-affordance-dataset",
+            "config_name": "default",
+            "version": {
+              "version_str": "0.0.0",
+              "major": 0,
+              "minor": 0,
+              "patch": 0
+            },
+            "splits": {
+              "train": {
+                "name": "train",
+                "num_bytes": 44189684,
+                "num_examples": 500,
+                "dataset_name": "thermal-affordance-dataset"
+              }
+            },
+            "size_in_bytes": 88354701
+          }
+        }
+      },
+      "supabaseConnectionStatus": {
+        "connected": true,
+        "projectInfo": {
+          "url": "https://whyvwubdhixyjylapxqx.supabase.co",
+          "bucketsCount": 1,
+          "surveyBucketExists": true,
+          "buckets": [
+            "survey-images"
+          ]
+        },
+        "lastTested": "2026-05-11T09:33:53.557Z"
+      }
+    },
+    "preloadedImages": [
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000000.jpg",
+        "name": "image_000000.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000001.jpg",
+        "name": "image_000001.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000002.jpg",
+        "name": "image_000002.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000003.jpg",
+        "name": "image_000003.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000004.jpg",
+        "name": "image_000004.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000005.jpg",
+        "name": "image_000005.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000006.jpg",
+        "name": "image_000006.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000007.jpg",
+        "name": "image_000007.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000008.jpg",
+        "name": "image_000008.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000009.jpg",
+        "name": "image_000009.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000010.jpg",
+        "name": "image_000010.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000011.jpg",
+        "name": "image_000011.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000012.jpg",
+        "name": "image_000012.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000013.jpg",
+        "name": "image_000013.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000014.jpg",
+        "name": "image_000014.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000015.jpg",
+        "name": "image_000015.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000016.jpg",
+        "name": "image_000016.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000017.jpg",
+        "name": "image_000017.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000018.jpg",
+        "name": "image_000018.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000019.jpg",
+        "name": "image_000019.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000020.jpg",
+        "name": "image_000020.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000021.jpg",
+        "name": "image_000021.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000022.jpg",
+        "name": "image_000022.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000023.jpg",
+        "name": "image_000023.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000024.jpg",
+        "name": "image_000024.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000025.jpg",
+        "name": "image_000025.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000026.jpg",
+        "name": "image_000026.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000027.jpg",
+        "name": "image_000027.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000028.jpg",
+        "name": "image_000028.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000029.jpg",
+        "name": "image_000029.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000030.jpg",
+        "name": "image_000030.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000031.jpg",
+        "name": "image_000031.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000032.jpg",
+        "name": "image_000032.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000033.jpg",
+        "name": "image_000033.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000034.jpg",
+        "name": "image_000034.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000035.jpg",
+        "name": "image_000035.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000036.jpg",
+        "name": "image_000036.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000037.jpg",
+        "name": "image_000037.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000038.jpg",
+        "name": "image_000038.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000039.jpg",
+        "name": "image_000039.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000040.jpg",
+        "name": "image_000040.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000041.jpg",
+        "name": "image_000041.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000042.jpg",
+        "name": "image_000042.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000043.jpg",
+        "name": "image_000043.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000044.jpg",
+        "name": "image_000044.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000045.jpg",
+        "name": "image_000045.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000046.jpg",
+        "name": "image_000046.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000047.jpg",
+        "name": "image_000047.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000048.jpg",
+        "name": "image_000048.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000049.jpg",
+        "name": "image_000049.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000050.jpg",
+        "name": "image_000050.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000051.jpg",
+        "name": "image_000051.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000052.jpg",
+        "name": "image_000052.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000053.jpg",
+        "name": "image_000053.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000054.jpg",
+        "name": "image_000054.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000055.jpg",
+        "name": "image_000055.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000056.jpg",
+        "name": "image_000056.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000057.jpg",
+        "name": "image_000057.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000058.jpg",
+        "name": "image_000058.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000059.jpg",
+        "name": "image_000059.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000060.jpg",
+        "name": "image_000060.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000061.jpg",
+        "name": "image_000061.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000062.jpg",
+        "name": "image_000062.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000063.jpg",
+        "name": "image_000063.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000064.jpg",
+        "name": "image_000064.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000065.jpg",
+        "name": "image_000065.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000066.jpg",
+        "name": "image_000066.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000067.jpg",
+        "name": "image_000067.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000068.jpg",
+        "name": "image_000068.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000069.jpg",
+        "name": "image_000069.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000070.jpg",
+        "name": "image_000070.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000071.jpg",
+        "name": "image_000071.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000072.jpg",
+        "name": "image_000072.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000073.jpg",
+        "name": "image_000073.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000074.jpg",
+        "name": "image_000074.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000075.jpg",
+        "name": "image_000075.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000076.jpg",
+        "name": "image_000076.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000077.jpg",
+        "name": "image_000077.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000078.jpg",
+        "name": "image_000078.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000079.jpg",
+        "name": "image_000079.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000080.jpg",
+        "name": "image_000080.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000081.jpg",
+        "name": "image_000081.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000082.jpg",
+        "name": "image_000082.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000083.jpg",
+        "name": "image_000083.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000084.jpg",
+        "name": "image_000084.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000085.jpg",
+        "name": "image_000085.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000086.jpg",
+        "name": "image_000086.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000087.jpg",
+        "name": "image_000087.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000088.jpg",
+        "name": "image_000088.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000089.jpg",
+        "name": "image_000089.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000090.jpg",
+        "name": "image_000090.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000091.jpg",
+        "name": "image_000091.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000092.jpg",
+        "name": "image_000092.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000093.jpg",
+        "name": "image_000093.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000094.jpg",
+        "name": "image_000094.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000095.jpg",
+        "name": "image_000095.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000096.jpg",
+        "name": "image_000096.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000097.jpg",
+        "name": "image_000097.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000098.jpg",
+        "name": "image_000098.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000099.jpg",
+        "name": "image_000099.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000100.jpg",
+        "name": "image_000100.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000101.jpg",
+        "name": "image_000101.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000102.jpg",
+        "name": "image_000102.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000103.jpg",
+        "name": "image_000103.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000104.jpg",
+        "name": "image_000104.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000105.jpg",
+        "name": "image_000105.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000106.jpg",
+        "name": "image_000106.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000107.jpg",
+        "name": "image_000107.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000108.jpg",
+        "name": "image_000108.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000109.jpg",
+        "name": "image_000109.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000110.jpg",
+        "name": "image_000110.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000111.jpg",
+        "name": "image_000111.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000112.jpg",
+        "name": "image_000112.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000113.jpg",
+        "name": "image_000113.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000114.jpg",
+        "name": "image_000114.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000115.jpg",
+        "name": "image_000115.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000116.jpg",
+        "name": "image_000116.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000117.jpg",
+        "name": "image_000117.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000118.jpg",
+        "name": "image_000118.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000119.jpg",
+        "name": "image_000119.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000120.jpg",
+        "name": "image_000120.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000121.jpg",
+        "name": "image_000121.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000122.jpg",
+        "name": "image_000122.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000123.jpg",
+        "name": "image_000123.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000124.jpg",
+        "name": "image_000124.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000125.jpg",
+        "name": "image_000125.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000126.jpg",
+        "name": "image_000126.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000127.jpg",
+        "name": "image_000127.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000128.jpg",
+        "name": "image_000128.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000129.jpg",
+        "name": "image_000129.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000130.jpg",
+        "name": "image_000130.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000131.jpg",
+        "name": "image_000131.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000132.jpg",
+        "name": "image_000132.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000133.jpg",
+        "name": "image_000133.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000134.jpg",
+        "name": "image_000134.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000135.jpg",
+        "name": "image_000135.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000136.jpg",
+        "name": "image_000136.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000137.jpg",
+        "name": "image_000137.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000138.jpg",
+        "name": "image_000138.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000139.jpg",
+        "name": "image_000139.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000140.jpg",
+        "name": "image_000140.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000141.jpg",
+        "name": "image_000141.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000142.jpg",
+        "name": "image_000142.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000143.jpg",
+        "name": "image_000143.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000144.jpg",
+        "name": "image_000144.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000145.jpg",
+        "name": "image_000145.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000146.jpg",
+        "name": "image_000146.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000147.jpg",
+        "name": "image_000147.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000148.jpg",
+        "name": "image_000148.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000149.jpg",
+        "name": "image_000149.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000150.jpg",
+        "name": "image_000150.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000151.jpg",
+        "name": "image_000151.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000152.jpg",
+        "name": "image_000152.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000153.jpg",
+        "name": "image_000153.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000154.jpg",
+        "name": "image_000154.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000155.jpg",
+        "name": "image_000155.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000156.jpg",
+        "name": "image_000156.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000157.jpg",
+        "name": "image_000157.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000158.jpg",
+        "name": "image_000158.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000159.jpg",
+        "name": "image_000159.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000160.jpg",
+        "name": "image_000160.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000161.jpg",
+        "name": "image_000161.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000162.jpg",
+        "name": "image_000162.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000163.jpg",
+        "name": "image_000163.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000164.jpg",
+        "name": "image_000164.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000165.jpg",
+        "name": "image_000165.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000166.jpg",
+        "name": "image_000166.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000167.jpg",
+        "name": "image_000167.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000168.jpg",
+        "name": "image_000168.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000169.jpg",
+        "name": "image_000169.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000170.jpg",
+        "name": "image_000170.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000171.jpg",
+        "name": "image_000171.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000172.jpg",
+        "name": "image_000172.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000173.jpg",
+        "name": "image_000173.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000174.jpg",
+        "name": "image_000174.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000175.jpg",
+        "name": "image_000175.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000176.jpg",
+        "name": "image_000176.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000177.jpg",
+        "name": "image_000177.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000178.jpg",
+        "name": "image_000178.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000179.jpg",
+        "name": "image_000179.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000180.jpg",
+        "name": "image_000180.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000181.jpg",
+        "name": "image_000181.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000182.jpg",
+        "name": "image_000182.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000183.jpg",
+        "name": "image_000183.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000184.jpg",
+        "name": "image_000184.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000185.jpg",
+        "name": "image_000185.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000186.jpg",
+        "name": "image_000186.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000187.jpg",
+        "name": "image_000187.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000188.jpg",
+        "name": "image_000188.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000189.jpg",
+        "name": "image_000189.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000190.jpg",
+        "name": "image_000190.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000191.jpg",
+        "name": "image_000191.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000192.jpg",
+        "name": "image_000192.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000193.jpg",
+        "name": "image_000193.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000194.jpg",
+        "name": "image_000194.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000195.jpg",
+        "name": "image_000195.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000196.jpg",
+        "name": "image_000196.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000197.jpg",
+        "name": "image_000197.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000198.jpg",
+        "name": "image_000198.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000199.jpg",
+        "name": "image_000199.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000200.jpg",
+        "name": "image_000200.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000201.jpg",
+        "name": "image_000201.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000202.jpg",
+        "name": "image_000202.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000203.jpg",
+        "name": "image_000203.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000204.jpg",
+        "name": "image_000204.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000205.jpg",
+        "name": "image_000205.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000206.jpg",
+        "name": "image_000206.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000207.jpg",
+        "name": "image_000207.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000208.jpg",
+        "name": "image_000208.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000209.jpg",
+        "name": "image_000209.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000210.jpg",
+        "name": "image_000210.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000211.jpg",
+        "name": "image_000211.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000212.jpg",
+        "name": "image_000212.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000213.jpg",
+        "name": "image_000213.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000214.jpg",
+        "name": "image_000214.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000215.jpg",
+        "name": "image_000215.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000216.jpg",
+        "name": "image_000216.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000217.jpg",
+        "name": "image_000217.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000218.jpg",
+        "name": "image_000218.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000219.jpg",
+        "name": "image_000219.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000220.jpg",
+        "name": "image_000220.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000221.jpg",
+        "name": "image_000221.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000222.jpg",
+        "name": "image_000222.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000223.jpg",
+        "name": "image_000223.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000224.jpg",
+        "name": "image_000224.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000225.jpg",
+        "name": "image_000225.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000226.jpg",
+        "name": "image_000226.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000227.jpg",
+        "name": "image_000227.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000228.jpg",
+        "name": "image_000228.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000229.jpg",
+        "name": "image_000229.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000230.jpg",
+        "name": "image_000230.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000231.jpg",
+        "name": "image_000231.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000232.jpg",
+        "name": "image_000232.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000233.jpg",
+        "name": "image_000233.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000234.jpg",
+        "name": "image_000234.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000235.jpg",
+        "name": "image_000235.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000236.jpg",
+        "name": "image_000236.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000237.jpg",
+        "name": "image_000237.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000238.jpg",
+        "name": "image_000238.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000239.jpg",
+        "name": "image_000239.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000240.jpg",
+        "name": "image_000240.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000241.jpg",
+        "name": "image_000241.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000242.jpg",
+        "name": "image_000242.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000243.jpg",
+        "name": "image_000243.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000244.jpg",
+        "name": "image_000244.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000245.jpg",
+        "name": "image_000245.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000246.jpg",
+        "name": "image_000246.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000247.jpg",
+        "name": "image_000247.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000248.jpg",
+        "name": "image_000248.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000249.jpg",
+        "name": "image_000249.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000250.jpg",
+        "name": "image_000250.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000251.jpg",
+        "name": "image_000251.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000252.jpg",
+        "name": "image_000252.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000253.jpg",
+        "name": "image_000253.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000254.jpg",
+        "name": "image_000254.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000255.jpg",
+        "name": "image_000255.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000256.jpg",
+        "name": "image_000256.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000257.jpg",
+        "name": "image_000257.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000258.jpg",
+        "name": "image_000258.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000259.jpg",
+        "name": "image_000259.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000260.jpg",
+        "name": "image_000260.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000261.jpg",
+        "name": "image_000261.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000262.jpg",
+        "name": "image_000262.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000263.jpg",
+        "name": "image_000263.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000264.jpg",
+        "name": "image_000264.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000265.jpg",
+        "name": "image_000265.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000266.jpg",
+        "name": "image_000266.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000267.jpg",
+        "name": "image_000267.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000268.jpg",
+        "name": "image_000268.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000269.jpg",
+        "name": "image_000269.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000270.jpg",
+        "name": "image_000270.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000271.jpg",
+        "name": "image_000271.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000272.jpg",
+        "name": "image_000272.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000273.jpg",
+        "name": "image_000273.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000274.jpg",
+        "name": "image_000274.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000275.jpg",
+        "name": "image_000275.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000276.jpg",
+        "name": "image_000276.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000277.jpg",
+        "name": "image_000277.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000278.jpg",
+        "name": "image_000278.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000279.jpg",
+        "name": "image_000279.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000280.jpg",
+        "name": "image_000280.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000281.jpg",
+        "name": "image_000281.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000282.jpg",
+        "name": "image_000282.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000283.jpg",
+        "name": "image_000283.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000284.jpg",
+        "name": "image_000284.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000285.jpg",
+        "name": "image_000285.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000286.jpg",
+        "name": "image_000286.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000287.jpg",
+        "name": "image_000287.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000288.jpg",
+        "name": "image_000288.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000289.jpg",
+        "name": "image_000289.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000290.jpg",
+        "name": "image_000290.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000291.jpg",
+        "name": "image_000291.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000292.jpg",
+        "name": "image_000292.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000293.jpg",
+        "name": "image_000293.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000294.jpg",
+        "name": "image_000294.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000295.jpg",
+        "name": "image_000295.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000296.jpg",
+        "name": "image_000296.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000297.jpg",
+        "name": "image_000297.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000298.jpg",
+        "name": "image_000298.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000299.jpg",
+        "name": "image_000299.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000300.jpg",
+        "name": "image_000300.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000301.jpg",
+        "name": "image_000301.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000302.jpg",
+        "name": "image_000302.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000303.jpg",
+        "name": "image_000303.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000304.jpg",
+        "name": "image_000304.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000305.jpg",
+        "name": "image_000305.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000306.jpg",
+        "name": "image_000306.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000307.jpg",
+        "name": "image_000307.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000308.jpg",
+        "name": "image_000308.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000309.jpg",
+        "name": "image_000309.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000310.jpg",
+        "name": "image_000310.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000311.jpg",
+        "name": "image_000311.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000312.jpg",
+        "name": "image_000312.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000313.jpg",
+        "name": "image_000313.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000314.jpg",
+        "name": "image_000314.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000315.jpg",
+        "name": "image_000315.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000316.jpg",
+        "name": "image_000316.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000317.jpg",
+        "name": "image_000317.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000318.jpg",
+        "name": "image_000318.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000319.jpg",
+        "name": "image_000319.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000320.jpg",
+        "name": "image_000320.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000321.jpg",
+        "name": "image_000321.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000322.jpg",
+        "name": "image_000322.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000323.jpg",
+        "name": "image_000323.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000324.jpg",
+        "name": "image_000324.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000325.jpg",
+        "name": "image_000325.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000326.jpg",
+        "name": "image_000326.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000327.jpg",
+        "name": "image_000327.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000328.jpg",
+        "name": "image_000328.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000329.jpg",
+        "name": "image_000329.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000330.jpg",
+        "name": "image_000330.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000331.jpg",
+        "name": "image_000331.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000332.jpg",
+        "name": "image_000332.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000333.jpg",
+        "name": "image_000333.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000334.jpg",
+        "name": "image_000334.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000335.jpg",
+        "name": "image_000335.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000336.jpg",
+        "name": "image_000336.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000337.jpg",
+        "name": "image_000337.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000338.jpg",
+        "name": "image_000338.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000339.jpg",
+        "name": "image_000339.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000340.jpg",
+        "name": "image_000340.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000341.jpg",
+        "name": "image_000341.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000342.jpg",
+        "name": "image_000342.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000343.jpg",
+        "name": "image_000343.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000344.jpg",
+        "name": "image_000344.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000345.jpg",
+        "name": "image_000345.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000346.jpg",
+        "name": "image_000346.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000347.jpg",
+        "name": "image_000347.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000348.jpg",
+        "name": "image_000348.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000349.jpg",
+        "name": "image_000349.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000350.jpg",
+        "name": "image_000350.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000351.jpg",
+        "name": "image_000351.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000352.jpg",
+        "name": "image_000352.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000353.jpg",
+        "name": "image_000353.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000354.jpg",
+        "name": "image_000354.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000355.jpg",
+        "name": "image_000355.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000356.jpg",
+        "name": "image_000356.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000357.jpg",
+        "name": "image_000357.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000358.jpg",
+        "name": "image_000358.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000359.jpg",
+        "name": "image_000359.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000360.jpg",
+        "name": "image_000360.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000361.jpg",
+        "name": "image_000361.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000362.jpg",
+        "name": "image_000362.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000363.jpg",
+        "name": "image_000363.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000364.jpg",
+        "name": "image_000364.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000365.jpg",
+        "name": "image_000365.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000366.jpg",
+        "name": "image_000366.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000367.jpg",
+        "name": "image_000367.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000368.jpg",
+        "name": "image_000368.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000369.jpg",
+        "name": "image_000369.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000370.jpg",
+        "name": "image_000370.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000371.jpg",
+        "name": "image_000371.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000372.jpg",
+        "name": "image_000372.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000373.jpg",
+        "name": "image_000373.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000374.jpg",
+        "name": "image_000374.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000375.jpg",
+        "name": "image_000375.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000376.jpg",
+        "name": "image_000376.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000377.jpg",
+        "name": "image_000377.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000378.jpg",
+        "name": "image_000378.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000379.jpg",
+        "name": "image_000379.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000380.jpg",
+        "name": "image_000380.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000381.jpg",
+        "name": "image_000381.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000382.jpg",
+        "name": "image_000382.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000383.jpg",
+        "name": "image_000383.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000384.jpg",
+        "name": "image_000384.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000385.jpg",
+        "name": "image_000385.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000386.jpg",
+        "name": "image_000386.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000387.jpg",
+        "name": "image_000387.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000388.jpg",
+        "name": "image_000388.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000389.jpg",
+        "name": "image_000389.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000390.jpg",
+        "name": "image_000390.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000391.jpg",
+        "name": "image_000391.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000392.jpg",
+        "name": "image_000392.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000393.jpg",
+        "name": "image_000393.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000394.jpg",
+        "name": "image_000394.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000395.jpg",
+        "name": "image_000395.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000396.jpg",
+        "name": "image_000396.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000397.jpg",
+        "name": "image_000397.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000398.jpg",
+        "name": "image_000398.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000399.jpg",
+        "name": "image_000399.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000400.jpg",
+        "name": "image_000400.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000401.jpg",
+        "name": "image_000401.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000402.jpg",
+        "name": "image_000402.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000403.jpg",
+        "name": "image_000403.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000404.jpg",
+        "name": "image_000404.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000405.jpg",
+        "name": "image_000405.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000406.jpg",
+        "name": "image_000406.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000407.jpg",
+        "name": "image_000407.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000408.jpg",
+        "name": "image_000408.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000409.jpg",
+        "name": "image_000409.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000410.jpg",
+        "name": "image_000410.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000411.jpg",
+        "name": "image_000411.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000412.jpg",
+        "name": "image_000412.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000413.jpg",
+        "name": "image_000413.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000414.jpg",
+        "name": "image_000414.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000415.jpg",
+        "name": "image_000415.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000416.jpg",
+        "name": "image_000416.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000417.jpg",
+        "name": "image_000417.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000418.jpg",
+        "name": "image_000418.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000419.jpg",
+        "name": "image_000419.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000420.jpg",
+        "name": "image_000420.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000421.jpg",
+        "name": "image_000421.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000422.jpg",
+        "name": "image_000422.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000423.jpg",
+        "name": "image_000423.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000424.jpg",
+        "name": "image_000424.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000425.jpg",
+        "name": "image_000425.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000426.jpg",
+        "name": "image_000426.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000427.jpg",
+        "name": "image_000427.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000428.jpg",
+        "name": "image_000428.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000429.jpg",
+        "name": "image_000429.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000430.jpg",
+        "name": "image_000430.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000431.jpg",
+        "name": "image_000431.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000432.jpg",
+        "name": "image_000432.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000433.jpg",
+        "name": "image_000433.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000434.jpg",
+        "name": "image_000434.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000435.jpg",
+        "name": "image_000435.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000436.jpg",
+        "name": "image_000436.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000437.jpg",
+        "name": "image_000437.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000438.jpg",
+        "name": "image_000438.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000439.jpg",
+        "name": "image_000439.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000440.jpg",
+        "name": "image_000440.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000441.jpg",
+        "name": "image_000441.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000442.jpg",
+        "name": "image_000442.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000443.jpg",
+        "name": "image_000443.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000444.jpg",
+        "name": "image_000444.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000445.jpg",
+        "name": "image_000445.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000446.jpg",
+        "name": "image_000446.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000447.jpg",
+        "name": "image_000447.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000448.jpg",
+        "name": "image_000448.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000449.jpg",
+        "name": "image_000449.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000450.jpg",
+        "name": "image_000450.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000451.jpg",
+        "name": "image_000451.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000452.jpg",
+        "name": "image_000452.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000453.jpg",
+        "name": "image_000453.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000454.jpg",
+        "name": "image_000454.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000455.jpg",
+        "name": "image_000455.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000456.jpg",
+        "name": "image_000456.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000457.jpg",
+        "name": "image_000457.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000458.jpg",
+        "name": "image_000458.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000459.jpg",
+        "name": "image_000459.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000460.jpg",
+        "name": "image_000460.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000461.jpg",
+        "name": "image_000461.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000462.jpg",
+        "name": "image_000462.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000463.jpg",
+        "name": "image_000463.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000464.jpg",
+        "name": "image_000464.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000465.jpg",
+        "name": "image_000465.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000466.jpg",
+        "name": "image_000466.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000467.jpg",
+        "name": "image_000467.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000468.jpg",
+        "name": "image_000468.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000469.jpg",
+        "name": "image_000469.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000470.jpg",
+        "name": "image_000470.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000471.jpg",
+        "name": "image_000471.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000472.jpg",
+        "name": "image_000472.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000473.jpg",
+        "name": "image_000473.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000474.jpg",
+        "name": "image_000474.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000475.jpg",
+        "name": "image_000475.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000476.jpg",
+        "name": "image_000476.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000477.jpg",
+        "name": "image_000477.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000478.jpg",
+        "name": "image_000478.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000479.jpg",
+        "name": "image_000479.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000480.jpg",
+        "name": "image_000480.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000481.jpg",
+        "name": "image_000481.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000482.jpg",
+        "name": "image_000482.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000483.jpg",
+        "name": "image_000483.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000484.jpg",
+        "name": "image_000484.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000485.jpg",
+        "name": "image_000485.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000486.jpg",
+        "name": "image_000486.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000487.jpg",
+        "name": "image_000487.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000488.jpg",
+        "name": "image_000488.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000489.jpg",
+        "name": "image_000489.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000490.jpg",
+        "name": "image_000490.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000491.jpg",
+        "name": "image_000491.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000492.jpg",
+        "name": "image_000492.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000493.jpg",
+        "name": "image_000493.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000494.jpg",
+        "name": "image_000494.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000495.jpg",
+        "name": "image_000495.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000496.jpg",
+        "name": "image_000496.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000497.jpg",
+        "name": "image_000497.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000498.jpg",
+        "name": "image_000498.jpg"
+      },
+      {
+        "url": "https://whyvwubdhixyjylapxqx.supabase.co/storage/v1/object/public/survey-images/sijiey_Thermal-Affordance-Dataset/image_000499.jpg",
+        "name": "image_000499.jpg"
+      }
+    ],
+    "preloadedAt": "2026-05-11T09:14:40.980Z",
+    "preloadedSource": "supabase",
+    "supabaseBucket": "survey-images",
+    "serverSetupComplete": true,
+    "serverSetupCompletedAt": "2026-05-11T09:36:04.236Z"
+  },
+  "surveyConfig": {
+    "title": "ART – Restorative Streetscape Perception - New",
+    "description": "Rate the restorative quality of street scenes using Attention Restoration Theory. Based on: Kaplan, S. (1995). The restorative benefits of nature: Toward an integrative framework. Journal of Environmental Psychology, 15(3), 169–182.",
+    "logoPosition": "right",
+    "showQuestionNumbers": "off",
+    "showProgressBar": "aboveheader",
+    "progressBarType": "questions",
+    "autoGrowComment": true,
+    "showPreviewBeforeComplete": "showAllQuestions",
+    "pages": [
+      {
+        "name": "page_intro",
+        "title": "About This Survey",
+        "description": "Attention Restoration Theory (ART) proposes that natural environments restore directed-attention capacity. This survey assesses whether street scenes possess restorative qualities across four dimensions: Being Away, Fascination, Extent, and Compatibility.",
+        "elements": [
+          {
+            "type": "expression",
+            "name": "art_intro",
+            "title": "Instructions",
+            "description": "For each street scene, you will be asked to rate four restorative qualities. Read each statement carefully and rate how much it applies to the scene shown, from 1 (Not at all) to 5 (Very much)."
+          }
+        ]
+      },
+      {
+        "name": "page_art_1",
+        "title": "Restorative Quality Assessment",
+        "description": "Study the street scene below carefully before answering.",
+        "elements": [
+          {
+            "type": "image",
+            "name": "street_art_image_1",
+            "title": "Street Scene",
+            "isRequired": false,
+            "imageCount": 1,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          },
+          {
+            "type": "matrix",
+            "name": "art_dimensions_1",
+            "title": "Rate the following restorative dimensions for this scene (1 = Not at all, 5 = Very much):",
+            "isRequired": true,
+            "rows": [
+              {
+                "value": "being_away",
+                "text": "Being Away – This place feels like an escape from my everyday routine and mental demands"
+              },
+              {
+                "value": "fascination",
+                "text": "Fascination – This place captures my attention effortlessly and holds genuine interest"
+              },
+              {
+                "value": "extent_scope",
+                "text": "Extent (Scope) – This place feels like part of a larger, coherent environment to explore"
+              },
+              {
+                "value": "extent_coherence",
+                "text": "Extent (Coherence) – This environment hangs together as a unified, ordered whole"
+              },
+              {
+                "value": "compatibility",
+                "text": "Compatibility – This place supports the activities and purposes I would seek there"
+              }
+            ],
+            "columns": [
+              {
+                "value": "1",
+                "text": "1\nNot at all"
+              },
+              {
+                "value": "2",
+                "text": "2"
+              },
+              {
+                "value": "3",
+                "text": "3"
+              },
+              {
+                "value": "4",
+                "text": "4"
+              },
+              {
+                "value": "5",
+                "text": "5\nVery much"
+              }
+            ]
+          },
+          {
+            "type": "rating",
+            "name": "overall_restoration_1",
+            "title": "Overall: how restorative does this street environment feel?",
+            "isRequired": true,
+            "rateMin": 1,
+            "rateMax": 5,
+            "minRateDescription": "Not restorative",
+            "maxRateDescription": "Highly restorative"
+          }
+        ]
+      },
+      {
+        "name": "page_art_2",
+        "title": "Restorative Quality Assessment",
+        "description": "Study the street scene below carefully before answering.",
+        "elements": [
+          {
+            "type": "image",
+            "name": "street_art_image_2",
+            "title": "Street Scene",
+            "isRequired": false,
+            "imageCount": 1,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          },
+          {
+            "type": "matrix",
+            "name": "art_dimensions_2",
+            "title": "Rate the following restorative dimensions for this scene (1 = Not at all, 5 = Very much):",
+            "isRequired": true,
+            "rows": [
+              {
+                "value": "being_away",
+                "text": "Being Away – This place feels like an escape from my everyday routine and mental demands"
+              },
+              {
+                "value": "fascination",
+                "text": "Fascination – This place captures my attention effortlessly and holds genuine interest"
+              },
+              {
+                "value": "extent_scope",
+                "text": "Extent (Scope) – This place feels like part of a larger, coherent environment to explore"
+              },
+              {
+                "value": "extent_coherence",
+                "text": "Extent (Coherence) – This environment hangs together as a unified, ordered whole"
+              },
+              {
+                "value": "compatibility",
+                "text": "Compatibility – This place supports the activities and purposes I would seek there"
+              }
+            ],
+            "columns": [
+              {
+                "value": "1",
+                "text": "1\nNot at all"
+              },
+              {
+                "value": "2",
+                "text": "2"
+              },
+              {
+                "value": "3",
+                "text": "3"
+              },
+              {
+                "value": "4",
+                "text": "4"
+              },
+              {
+                "value": "5",
+                "text": "5\nVery much"
+              }
+            ]
+          },
+          {
+            "type": "rating",
+            "name": "overall_restoration_2",
+            "title": "Overall: how restorative does this street environment feel?",
+            "isRequired": true,
+            "rateMin": 1,
+            "rateMax": 5,
+            "minRateDescription": "Not restorative",
+            "maxRateDescription": "Highly restorative"
+          }
+        ]
+      },
+      {
+        "name": "page_pairwise_restoration",
+        "title": "Comparative Restoration",
+        "description": "Choose the scene that would be more mentally restorative.",
+        "elements": [
+          {
+            "type": "imagepicker",
+            "name": "restoration_pairwise",
+            "title": "Which street scene would be more mentally restorative / refreshing?",
+            "isRequired": true,
+            "imageCount": 2,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          },
+          {
+            "type": "imagepicker",
+            "name": "nature_best",
+            "title": "Which scene provides the greatest connection with nature?",
+            "isRequired": true,
+            "imageCount": 4,
+            "imageSelectionMode": "huggingface_random",
+            "imageFit": "cover",
+            "randomImageSelection": true,
+            "imageSource": "huggingface"
+          }
+        ]
+      },
+      {
+        "name": "page_mental_health_context",
+        "title": "Personal Context (Optional)",
+        "description": "These questions help us understand how individual context influences restorative perception.",
+        "elements": [
+          {
+            "type": "radiogroup",
+            "name": "stress_level",
+            "title": "How would you describe your current stress level?",
+            "isRequired": false,
+            "choices": [
+              {
+                "value": "very_low",
+                "text": "Very low"
+              },
+              {
+                "value": "low",
+                "text": "Low"
+              },
+              {
+                "value": "moderate",
+                "text": "Moderate"
+              },
+              {
+                "value": "high",
+                "text": "High"
+              },
+              {
+                "value": "very_high",
+                "text": "Very high"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "nature_access",
+            "title": "How easy is it for you to access green or natural spaces near your home?",
+            "isRequired": false,
+            "choices": [
+              {
+                "value": "very_easy",
+                "text": "Very easy (within 5 min walk)"
+              },
+              {
+                "value": "easy",
+                "text": "Easy (5–15 min)"
+              },
+              {
+                "value": "moderate",
+                "text": "Moderate (15–30 min)"
+              },
+              {
+                "value": "difficult",
+                "text": "Difficult (30+ min)"
+              },
+              {
+                "value": "none",
+                "text": "No access"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "age_group",
+            "title": "Age group",
+            "isRequired": false,
+            "choices": [
+              {
+                "value": "under_18",
+                "text": "Under 18"
+              },
+              {
+                "value": "18_24",
+                "text": "18–24"
+              },
+              {
+                "value": "25_34",
+                "text": "25–34"
+              },
+              {
+                "value": "35_44",
+                "text": "35–44"
+              },
+              {
+                "value": "45_54",
+                "text": "45–54"
+              },
+              {
+                "value": "55_64",
+                "text": "55–64"
+              },
+              {
+                "value": "65_plus",
+                "text": "65 or older"
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "name": "restoration_comments",
+            "title": "What features of street environments do you find most mentally restorative? (Optional)",
+            "isRequired": false,
+            "rows": 3
+          }
+        ]
+      }
+    ]
+  },
+  "supabaseConfig": null,
+  "savedAt": "2026-05-11T09:36:04.241Z",
+  "version": "2.0"
+}
