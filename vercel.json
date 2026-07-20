@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "build": {
+    "env": {
+      "REACT_APP_SUPABASE_URL": "https://whyvwubdhixyjylapxqx.supabase.co",
+      "REACT_APP_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0ODMzMzEsImV4cCI6MjA5NDA1OTMzMX0.ReXVNS6FXo_xy7ZhPKUrSyqw5OLOe8jQaCpsUAVGBSc"
+    }
+  },
+  "env": {
+    "REACT_APP_SUPABASE_URL": "https://whyvwubdhixyjylapxqx.supabase.co",
+    "REACT_APP_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0ODMzMzEsImV4cCI6MjA5NDA1OTMzMX0.ReXVNS6FXo_xy7ZhPKUrSyqw5OLOe8jQaCpsUAVGBSc"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

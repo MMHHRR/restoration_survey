@@ -1,0 +1,15 @@
+{
+  "short_name": "SP-Survey",
+  "name": "SP-Survey - Streetscape Perception Survey Platform",
+  "icons": [
+    {
+      "src": "logo-box.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
