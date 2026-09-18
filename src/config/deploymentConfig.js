@@ -4052,7 +4052,7 @@ export const deploymentConfig = {
   "showProgressBar": "aboveheader",
   "progressBarType": "questions",
   "autoGrowComment": true,
-  "showPreviewBeforeComplete": "showAllQuestions",
+  "showPreviewBeforeComplete": "noPreview",
   "pages": [
     {
       "name": "page_intro",

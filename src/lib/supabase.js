@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
+import { normalizeUserId } from './surveyDraft';
 
 let supabase = null;
 
@@ -120,12 +121,26 @@ export const isSupabaseConfigured = () => {
   return supabase !== null
 }
 
+/**
+ * 区分"网络不通"与"服务器拒绝"：
+ * 前者可以靠补交队列自愈；后者（如 RLS 权限不足）重试多少次都没用，必须让人介入。
+ */
+function isNetworkError(error) {
+  if (!error) return false
+  // PostgREST / Supabase 返回的业务错误会带 code（如 42501），那不是网络问题
+  if (error.code) return false
+  return /fetch|network|timeout|abort|econnrefused|enotfound/i.test(
+    String(error.message || error)
+  )
+}
+
 // Function to save survey response
-export async function saveSurveyResponse(completeData) {
+export async function saveSurveyResponse(completeData, userId) {
+  // 参与者 ID 作为幂等键：同一个 ID 重复提交时只保留最新一条
+  const participantId = normalizeUserId(userId) || generateParticipantId()
   try {
     if (!supabase) {
       // ✅ If Supabase is not configured, save to file as fallback (no localStorage!)
-      const participantId = generateParticipantId()
       const responseData = {
         participant_id: participantId,
         responses: completeData.responses,
@@ -157,24 +172,42 @@ export async function saveSurveyResponse(completeData) {
       }
     }
 
-    const { data, error } = await supabase
+    // 先插入新记录并取回新行 id，随后再删除同一参与者的旧记录。
+    // 顺序不能颠倒：先删后插时一旦插入失败，数据会彻底丢失。
+    const { data: inserted, error } = await supabase
       .from('survey_responses')
       .insert([
         {
-          participant_id: generateParticipantId(),
+          participant_id: participantId,
           responses: completeData.responses,
           displayed_images: completeData.displayed_images,
           survey_metadata: completeData.survey_metadata
         }
       ])
+      .select('id')
     
     if (error) throw error
     
-    console.log('Survey response saved to Supabase:', data)
-    return { success: true, data, storage: 'supabase' }
+    const newRowId = inserted && inserted[0] ? inserted[0].id : null
+    if (newRowId !== null && newRowId !== undefined) {
+      // 只删除"比本次更早"的重复记录（id 递增）。
+      // 用 lt 而不是 neq：并发提交时 neq 会互相删掉对方刚插入的行，可能一条不剩。
+      const { error: cleanupError } = await supabase
+        .from('survey_responses')
+        .delete()
+        .eq('participant_id', participantId)
+        .lt('id', newRowId)
+      if (cleanupError) {
+        // 清理失败不算本次提交失败（数据已入库），只会残留一条旧记录
+        console.warn('Failed to remove previous response for the same participant:', cleanupError)
+      }
+    }
+
+    console.log('Survey response saved to Supabase:', inserted)
+    return { success: true, data: inserted, storage: 'supabase' }
   } catch (error) {
     console.error('Error saving survey response:', error)
-    return { success: false, error }
+    return { success: false, error, errorType: isNetworkError(error) ? 'network' : 'server' }
   }
 }
 
