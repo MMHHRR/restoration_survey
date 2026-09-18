@@ -103,6 +103,12 @@ export default function SurveyAppClean() {
               }
             ];
           }
+          // 矩阵题统一必填（配置里 R1/R5 漏设为 false）；
+          // 注意 SurveyJS 的 isRequired 对矩阵只要求“至少填一格”，
+          // “4 行全答”由下面的 onValidateQuestion 兜底。
+          if (element.type === 'matrix') {
+            element.isRequired = true;
+          }
         });
       });
       
@@ -277,6 +283,22 @@ export default function SurveyAppClean() {
       model.logoPosition = surveyConfig.logoPosition || 'right';
 
       const INTRO_PAGE_NAME = 'page_intro';
+
+      // 矩阵题要求所有评分项都完成。
+      // SurveyJS 对矩阵题的 isRequired 只保证“至少一格有值”，
+      // 仅靠它会出现“4 行只答 1 行也能过页”的数据缺失。
+      model.onValidateQuestion.add((survey, options) => {
+        const question = options.question;
+        if (!question || question.getType() !== 'matrix') return;
+        const value = question.value || {};
+        const rows = question.rows || [];
+        const missing = rows.filter(
+          (row) => value[row.value] === undefined || value[row.value] === null || value[row.value] === ''
+        );
+        if (missing.length > 0) {
+          options.error = '請完成本題所有評分項目（尚有 ' + missing.length + ' 項未作答）。';
+        }
+      });
 
       // ---- 用草稿重建图片分配（必须与保存时完全一致）----
       // 只恢复答案而不恢复图片分配，会让 image_N 与 shown_images 错位
