@@ -304,7 +304,7 @@ export default function SurveyAppClean() {
             if (typeof question.clearErrors === 'function') {
               question.clearErrors();
             }
-          }, 1000);
+          }, 3000);
         }
       });
 
