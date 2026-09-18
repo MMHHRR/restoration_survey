@@ -297,6 +297,14 @@ export default function SurveyAppClean() {
         );
         if (missing.length > 0) {
           options.error = '請完成本題所有評分項目（尚有 ' + missing.length + ' 項未作答）。';
+          // SurveyJS 会把整个矩阵题标红，且一直持续到答完。
+          // 这里让高亮几秒后自动淡出；校验强度不变（再点 Next 仍会重新报错并拦住）。
+          if (question.__matrixErrorTimer) clearTimeout(question.__matrixErrorTimer);
+          question.__matrixErrorTimer = setTimeout(() => {
+            if (typeof question.clearErrors === 'function') {
+              question.clearErrors();
+            }
+          }, 3000);
         }
       });
 
