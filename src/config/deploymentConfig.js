@@ -1,5 +1,10 @@
 // Auto-generated deployment configuration
 // Generated on: 2026/7/20 14:07:50
+//
+// ⚠️ 安全提示：本文件会被打包进前端 bundle，任何人（含 public 仓库访问者）
+// 都能看到其中的内容。严禁在此放置 service_role / secret 类密钥。
+// 此处原本误带了一把 service_role 密钥，已于 2026-09-18 移除；
+// 原密钥务必在 Supabase 控制台轮换作废。
 
 export const deploymentConfig = {
   "id": "proj_1778489865573_k9084r1z9",
@@ -15,7 +20,6 @@ export const deploymentConfig = {
     "enabled": true,
     "supabaseProjectId": "whyvwubdhixyjylapxqx",
     "supabaseUrl": "https://whyvwubdhixyjylapxqx.supabase.co",
-    "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODQ4MzMzMSwiZXhwIjoyMDk0MDU5MzMxfQ.9yAtO69v51WsJcapEPYL45UqDGv_J1VPo9GK5Bt-CP8",
     "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoeXZ3dWJkaGl4eWp5bGFweHF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0ODMzMzEsImV4cCI6MjA5NDA1OTMzMX0.ReXVNS6FXo_xy7ZhPKUrSyqw5OLOe8jQaCpsUAVGBSc",
     "datasetInfo": {
       "id": "JerryHaoran/hk_svi_prs_survey",

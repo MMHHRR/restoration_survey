@@ -11,10 +11,15 @@ node_modules/
 
 # Misc
 .DS_Store
+
+# Local env files — may contain secrets (e.g. service_role keys). Never commit real keys.
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.local
+!.env.example
 
 # Logs
 npm-debug.log*
