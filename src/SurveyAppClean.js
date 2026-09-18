@@ -99,7 +99,7 @@ export default function SurveyAppClean() {
               {
                 type: 'regex',
                 regex: '^[A-Za-z0-9_-]{2,20}$',
-                text: '请输入有效的参与者 ID（2-20 位字母、数字、- 或 _）。'
+                text: '請輸入有效的參與者 ID（2-20 位字母、數字、- 或 _）。'
               }
             ];
           }
@@ -329,7 +329,7 @@ export default function SurveyAppClean() {
         }
         setToast({
           severity: 'info',
-          message: '已恢复上次的作答进度（ID：' + userId + '）。'
+          message: '已恢復上次的作答進度（ID：' + userId + '）。'
         });
         return true;
       };
@@ -433,8 +433,8 @@ export default function SurveyAppClean() {
           setToast({
             severity: 'success',
             message: result.storage === 'supabase'
-              ? '提交成功，感谢您的参与！'
-              : '提交成功（已保存到本地文件）。'
+              ? '提交成功，感謝您的參與！'
+              : '提交成功（已儲存到本機檔案）。'
           });
         } else {
           console.error('Failed to save survey response:', result.error);
@@ -446,14 +446,14 @@ export default function SurveyAppClean() {
             setToast({
               severity: 'warning',
               message: !hasLocalStorage
-                ? '提交失败，且当前浏览器无法本地暂存，请联系研究人员。'
+                ? '提交失敗，且當前瀏覽器無法暫存於本機，請聯絡研究人員。'
                 : result.errorType === 'server'
-                  ? '提交被服务器拒绝' + errorCode + '。您的作答已暂存在本机，请联系研究人员处理。'
-                  : '网络异常：您的作答已暂存在本机，网络恢复后会自动提交。请勿清除浏览器数据或更换设备。'
+                  ? '提交被伺服器拒絕' + errorCode + '。您的作答已暫存在本機，請聯絡研究人員處理。'
+                  : '網路異常：您的作答已暫存在本機，網路恢復後會自動提交。請勿清除瀏覽器資料或更換裝置。'
             });
           } else {
             const errorMessage = result?.error?.message || result?.error || 'Unknown error';
-            setToast({ severity: 'error', message: '提交失败：' + errorMessage });
+            setToast({ severity: 'error', message: '提交失敗：' + errorMessage });
           }
         }
       });
@@ -483,7 +483,7 @@ export default function SurveyAppClean() {
           if (result.success) {
             clearPending(item.userId);
             console.log('[surveyDraft] 补交成功:', item.userId);
-            setToast({ severity: 'success', message: '已自动补交上次未提交的作答，感谢您的参与！' });
+            setToast({ severity: 'success', message: '已自動補交上次未提交的作答，感謝您的參與！' });
           } else {
             console.warn('[surveyDraft] 补交失败:', item.userId, result.error);
           }
