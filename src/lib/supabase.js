@@ -172,9 +172,13 @@ export async function saveSurveyResponse(completeData, userId) {
       }
     }
 
-    // 先插入新记录并取回新行 id，随后再删除同一参与者的旧记录。
-    // 顺序不能颠倒：先删后插时一旦插入失败，数据会彻底丢失。
-    const { data: inserted, error } = await supabase
+    // ⚠️ 这里切勿加 .select()！
+    // 一旦加上，PostgREST 会发送 Prefer: return=representation，触发
+    // INSERT ... RETURNING；而 RETURNING 需要该行的 SELECT 权限/策略。
+    // 本项目用 anon key 提交，anon 只有 INSERT 权限、读不到这张表，
+    // 于是会被拒成 42501（"new row violates row-level security policy"）——
+    // 报错信息极具误导性：实际是“插入成功但读回失败”。
+    const { error } = await supabase
       .from('survey_responses')
       .insert([
         {
@@ -184,27 +188,14 @@ export async function saveSurveyResponse(completeData, userId) {
           survey_metadata: completeData.survey_metadata
         }
       ])
-      .select('id')
-    
-    if (error) throw error
-    
-    const newRowId = inserted && inserted[0] ? inserted[0].id : null
-    if (newRowId !== null && newRowId !== undefined) {
-      // 只删除"比本次更早"的重复记录（id 递增）。
-      // 用 lt 而不是 neq：并发提交时 neq 会互相删掉对方刚插入的行，可能一条不剩。
-      const { error: cleanupError } = await supabase
-        .from('survey_responses')
-        .delete()
-        .eq('participant_id', participantId)
-        .lt('id', newRowId)
-      if (cleanupError) {
-        // 清理失败不算本次提交失败（数据已入库），只会残留一条旧记录
-        console.warn('Failed to remove previous response for the same participant:', cleanupError)
-      }
-    }
 
-    console.log('Survey response saved to Supabase:', inserted)
-    return { success: true, data: inserted, storage: 'supabase' }
+    if (error) throw error
+
+    // 注：同 ID 覆盖（先插后删）需要 SELECT/DELETE 权限，anon 角色没有，
+    // 因此只能依赖分析阶段按 responses.user_id 去重。
+    // 若需要真正的服务端覆盖，改用 SECURITY DEFINER 的 RPC 函数。
+    console.log('Survey response saved to Supabase')
+    return { success: true, storage: 'supabase' }
   } catch (error) {
     console.error('Error saving survey response:', error)
     return { success: false, error, errorType: isNetworkError(error) ? 'network' : 'server' }
